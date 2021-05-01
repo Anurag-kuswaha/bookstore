@@ -193,3 +193,134 @@ padding-right:15px;
 }
 
  
+ #menu-tile, #specials-tile ,#map-tile{
+  height:250px;
+  width:100%;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+}
+#menu-tile:hover, #specials-tile:hover,#map-tile:hover{
+box-shadow: 0 1px 40px 1px black;
+}
+ #menu-tile {
+  background: url("menu.jpg") no-repeat;
+  
+  position: center;
+ }
+ #specials-tile {
+  background: url("special.jpg") no-repeat;
+  position: center;
+ }
+ #menu-tile span, #specials-tile span ,#map-tile span{
+  position:absolute;
+  bottom: 0;
+  right:0;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color:#fff;
+    opacity:0.8;
+     }
+     /******************* menu categories ******************/
+
+
+   .category-tile{
+    position:relative;
+    border:2px solid #3F0C1F;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    border-radius:12px;
+    margin:0 auto 15px;
+   }
+
+.category-tile span {
+
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width:100%;
+  text-align:center;
+  font-size:1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color:#fff;
+  opacity: 0.8;
+}
+
+.category-tile:hover{
+  box-shadow: 0 1px 15px 1px #cccccc;
+}
+#menu-categories-title + div{
+  margin-bottom: 50px;
+}
+     /******************* footer ******************/
+
+      .panel-footer{
+      background-color:#222;
+      color:#E3E2DF;
+      margin-top: 30px;
+      padding-top:35px;
+      padding-bottom: 30px;
+      
+      border-top: 0;
+     }
+     .panel-footer div.row{
+      margin-bottom: 35px;
+     }
+     #hours ,#address{
+      line-height: 2;
+     }
+      #hours > span, #address > span{
+      font-size: 1.3em;
+     }
+     #address p{
+      color:#557c3e;
+      font-size:.8em;
+      line-height: 1.8em;
+     }
+     #testimonials{
+      font-style: italic;
+     }
+     #testimonials p:nth-child(2){
+      margin-top:25px;
+     }
+     .text-center{
+      color:purple;
+      font-family: italic;
+      font-size:1.5em;
+     }
+
+
+
+ #book_image{
+
+  background: url("../image/logo.png") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:100%;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+#book_image span{
+        position:absolute;
+  bottom: 0;
+  right:0;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color:#fff;
+    opacity:0.8;
+     }
