@@ -24,6 +24,11 @@ body{
 	float:left; 
 
 }
+@media (max-width:479px){
+  #logo-img{
+    position: center;
+  }
+}
 .navbar-brand{
   padding-top:16px;
 
@@ -295,16 +300,19 @@ box-shadow: 0 1px 40px 1px black;
       font-size:1.5em;
      }
 
+/* maine work of the books */
+  #home-tiles{
+    position: relative;
+    margin-left: 50px;
+  }
+ #book_image1{
 
-
- #book_image{
-
-  background: url("../image/logo.png") no-repeat;
+  background: url("../image/1.jpg") no-repeat;
   
   position: center;
  
       height:250px;
-  width:100%;
+  width:188px;
   position: relative;
   margin-bottom:15px;
   border: 2px solid #2F0C1F;
@@ -312,15 +320,151 @@ box-shadow: 0 1px 40px 1px black;
 
     
      }
-#book_image span{
+      #book_image2{
+
+  background: url("../image/2.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+        #book_image3{
+
+  background: url("../image/3.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+        #book_image4{
+
+  background: url("../image/4.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+        #book_image5{
+
+  background: url("../image/5.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+        #book_image6{
+
+  background: url("../image/6.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+        #book_image7{
+
+  background: url("../image/7.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+
+       #book_image8{
+
+  background: url("../image/8.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+         #book_image9{
+
+  background: url("../image/9.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+         #book_image10{
+
+  background: url("../image/10.jpg") no-repeat;
+  
+  position: center;
+ 
+      height:250px;
+  width:188px;
+  position: relative;
+  margin-bottom:15px;
+  border: 2px solid #2F0C1F;
+  overflow:hidden;
+
+    
+     }
+#book_image1 span, #book_image2 span, #book_image3 span, #book_image4 span, #book_image5 span, #book_image6 span,#book_image7 span, #book_image8 span, #book_image9 span, #book_image10 span{
         position:absolute;
   bottom: 0;
   right:0;
     width:100%;
     text-align:center;
-    font-size:2em;
+    font-size:1em;
     text-transform: uppercase;
-    background-color: #000;
-    color:#fff;
+    background-color: green;
+    color:green;
     opacity:0.8;
      }

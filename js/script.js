@@ -1,3 +1,29 @@
+function flipcart(){
+  console.log("remove from the cart");
+ var  name = document.getElementByid("book_image1").value;
+ document.querySelector("#book_image1").textContent=change ;
+ //if(name=="add to cart") {console.log("cart adding ");
+  //var change =document.querySelector("#home-tiles").textContent;
+  //var change="remove from the cart";
+  //document.querySelector("#home-tiles").textContent=change ;
+  console.log("remove from the cart");
+ // }
+ document.getElementById("book_image1").innerHTML=change;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 (function (global) {
 
@@ -246,3 +272,6 @@ function insertItemPortionName(html,
 global.$dc = dc;
 
 })(window);
+
+
+
